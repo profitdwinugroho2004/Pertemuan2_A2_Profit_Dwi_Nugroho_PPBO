@@ -1,0 +1,21 @@
+# Definisi kelas 'kereta'
+class kereta:
+    # Metode inisialisasi (__init__) untuk menginisialisasi objek
+    def __init__(self, merk, warna):
+        self.merk = merk
+        self.warna = warna
+
+    # Metode untuk menampilkan informasi kereta
+    def menampilkan_kereta(self):
+        print(f"kereta {self.merk}, Warna: {self.warna}")
+
+# Membuat objek dari kelas 'Kereta'
+kereta1 = kereta("Mataram", "Hijau")
+kereta2 = kereta("Gajahwong", "Biru")
+
+# Menampilkan informasi objek 'kereta1'
+kereta1.menampilkan_kereta()
+
+# Menampilkan informasi objek 'kereta2'
+kereta2.menampilkan_kereta()
+
