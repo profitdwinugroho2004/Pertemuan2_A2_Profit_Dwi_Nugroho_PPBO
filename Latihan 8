@@ -1,0 +1,16 @@
+class Mahasiswa:
+    def __init__(self, nama, nim, angkatan):
+        self.nama = nama
+        self.nim = nim
+        self.angkatan = angkatan
+
+    def cetak_info(self):
+        print("Nama:", self.nama)
+        print("NIM:", self.nim)
+        print("Angkatan", self.angkatan)
+
+# Membuat objek Mahasiswa dengan konstruktor
+mahasiswa1 = Mahasiswa("Profit", "515963", "23")
+
+# Mencetak informasi objek menggunakan metode
+mahasiswa1.cetak_info()
